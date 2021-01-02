@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Circle</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">动态</string>
+    <string name="title_inform">消息</string>
+    <string name="title_notifications">我的</string>
+    <string name="forgetpassword"><u>忘记密码</u></string>
+</resources>

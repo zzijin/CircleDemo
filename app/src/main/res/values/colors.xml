@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--标题栏颜色-->
+<color name="colorPrimary">#00BFFF</color>
+<!--状态栏颜色-->
+<color name="colorPrimaryDark">#00BFFF</color>
+<!--底部导航栏选中颜色-->
+<color name="colorAccent">#8A2BE2</color>
+<color name="colorUserName">#000000</color>
+<color name="colorUserTime">#808080</color>
+<color name="colorArt">#F5F5F5</color>
+<color name="colorMusicName">#8A2BE2</color>
+<color name="colorControl">#DCDCDC</color>
+<color name="colorLoginStroke">#FFEFD5</color>
+<color name="colorLoginButtonStroke">#F4A460</color>
+</resources>

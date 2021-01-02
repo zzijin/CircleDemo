@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#DCDCDC"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="设置"
+                android:textColor="#FFFAFA"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+        <!--账户登录/信息区-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#F5F5F5"
+            >
+            <!--登录注册模块-->
+            <include
+                android:id="@+id/include_notifications_login"
+                layout="@layout/line_setting_login"
+                />
+            <!--账户信息模块-->
+            <include
+                android:id="@+id/include_notifications_inform"
+                android:visibility="gone"
+                layout="@layout/line_setting_account"
+                />
+        </LinearLayout>
+
+        <!--应用设置列表-->
+        <ListView
+            android:id="@+id/list_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
